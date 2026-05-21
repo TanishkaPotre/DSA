@@ -2,7 +2,7 @@
 
 Language: C++
 
-Start Date: 29th Jan 2026
+Start Date: 29th Feb 2026
 
 ## Goals
 - Build strong DSA fundamentals
