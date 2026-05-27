@@ -49,14 +49,21 @@ public:
         int maxi=INT_MIN,sum=0;
 
         int i,n=nums.size();
+        int start,end;
         
         for(i=0;i<n;i++)
         {
+            if(sum==0)
+            {
+                start=i;
+            }
             sum+=nums[i];
 
             if(maxi<sum)
             {
                 maxi=sum;
+                int startind=start;
+                end=i;
             }
             if(sum<0)
             {
